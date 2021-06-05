@@ -6,7 +6,8 @@
   "scripts": {
     "clean": "shx rm -rf dist .cache",
     "start": "npm run clean && parcel src/index.html",
-    "dev": "npm run start"
+    "dev": "npm run start",
+    "build": "parcel build src/index.html"
   },
   "keywords": [],
   "author": "",
@@ -24,6 +25,7 @@
     "react-redux": "^5.0.7",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
+    "react-scripts": "^4.0.3",
     "redux": "^4.0.0",
     "redux-thunk": "^2.3.0"
   },
@@ -35,6 +37,8 @@
     "babel-preset-react": "^6.24.1",
     "mkdirp": "^1.0.4",
     "rimraf": "^3.0.2",
-    "shx": "^0.3.3"
+    "shx": "^0.3.3",
+    "webpack-cli": "^4.7.0",
+    "webpack-merge": "^5.7.3"
   }
 }
